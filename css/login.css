@@ -1,0 +1,44 @@
+.box_1{
+	height: 300px; 
+	width: 420px;
+	margin-top: 100px;
+	background: #9BD1FA;//背景色
+	border-width: 10px;	//边缘的宽度，如果要分别设置可以这样：border-width: 15px 5px 15px 5px;依次为上、右、下、左
+	border-style: solid;
+	border-radius: 15px;	//圆角的大小
+	border-color: #000 #000 #000 #000;	//边框颜色，依次为上、右、下、左
+	 position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: 25%;
+    margin-top: 25%;
+}
+.box{
+	height: 30px;
+	width: 300px;
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 1px;
+}
+.image{
+	margin-left: 180px;
+	margin-top: 10px;
+}
+.text_10{
+	margin-top: 8px;
+}
+.box_s{
+	margin-right: 15px;
+}
+.box_bu{
+	height: 40px;
+	width: 100px;
+	border-style: solid;
+	border-radius: 1px;
+	border-width: 2px;
+	border-color: green;
+	font-size: 20px;
+}
+.br_5{
+display:inline; line-height:5px;
+}
