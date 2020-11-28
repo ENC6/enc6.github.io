@@ -2,7 +2,7 @@ function show_date_time_1(){
 
 window.setTimeout("show_date_time_1()", 1000);
 
-BirthDay=new Date("12/3/2020 08:00:00");
+BirthDay=new Date("6/20/2021 08:00:00");
 
 today=new Date();
 
@@ -33,7 +33,7 @@ for  ( var  i = 0, len = arguments.length; i < len; i++) {
          }
      }
 
-span_dt_xj.innerHTML="<font size=5.2 face='ff'>距</font><font size=5.2 face='ff' color=red>信息技术会考还有：</font><font size=8 face='led'>"+daysold+"</font><font size=8 face='ff'>天</font><font size=8 face='led'>"+hrsold+"</font><font size=8 face='ff'>小时</font><font size=8 face='led'>"+minsold+"</font><font size=8 face='ff'>分</font><font size=8 face='led'>"+seconds+"</font><font size=8 face='ff'>秒</font>"+"<br></font><br>" ; // 这里你自己改。就是倒计时的样式，字体大小size=4 颜色是color
+span_dt_xj.innerHTML="<div><font size=5.2 face='ff'>距</font><font size=5.2 face='ff' color=red>中考</font><font size=5.2 face='ff'>还有：</div></font><font size=8 face='led'>"+daysold+"</font><font size=8 face='ff'>天</font><font size=8 face='led'>"+hrsold+"</font><font size=8 face='ff'>小时</font><font size=8 face='led'>"+minsold+"</font><font size=8 face='ff'>分</font><font size=8 face='led'>"+seconds+"</font><font size=8 face='ff'>秒</font>"+"<br></font><br>" ; // 这里你自己改。就是倒计时的样式，字体大小size=4 颜色是color
 
 }
 
