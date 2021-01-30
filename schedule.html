@@ -1,44 +1,78 @@
-<!DOCTYPE html> 
-<html> 
-<head> 
-	<meta charset="utf-8">
-	<style type="text/css">
-a{text-decoration:none} 
-a:hover{text-decoration:none} 
-.hr0{ height:1px;border:none;border-top:5px dashed #0066CC;}
-.hr1{ height:0px;border:none;border-top:8px solid red;}
-.hr2{ height:0px;border:none;border-top:8px solid blue;}
-	hr {
-		margin-bottom: -8px;
-	}
-	div {
-		text-align: center;
-	}
-	.main h1{
-		font-size: 48px;
-		letter-spacing: 100px;
-		height: 20px;
-	}
-	.main h2{
-		font-size: 32px;
-	}
-	.main h3{
-		font-size: 24px;
-	}
-	.main h5{
-		font-size: 18px;
-	}
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style type="text/css">
+    .low{
+        height: 15px;
+    }
+a {
+    text-decoration: none
+}
+a:hover {
+    text-decoration: none
+}
+.hr0 {
+    height: 1px;
+    border: none;
+    border-top: 5px dashed #0066CC;
+}
+.hr1 {
+    height: 0px;
+    border: none;
+    border-top: 8px solid red;
+}
+.hr2 {
+    height: 0px;
+    border: none;
+    border-top: 8px solid blue;
+}
+hr {
+    margin-bottom: -8px;
+}
+div {
+    text-align: center;
+}
+.main h1 {
+    font-size: 48px;
+    letter-spacing: 100px;
+    height: 50px;
+}
+.main h2 {
+    font-size: 32px;
+}
+.main h3 {
+    font-size: 22px;
+    height: 12px;
+}
+.main h5 {
+    font-size: 18px;
+    
+}
+    .pass {
+        color: red;
+    }
+    .future {
+        color: #00CC00;
+    }
 </style>
+<script> 
+function changecolor() { 
+	var b=document.getElementById("a").style.color; 
+	 if(b=="red"){document.getElementById("a").style.color="#FFFFE0";} 
+	 else {document.getElementById("a").style.color="red";} } 
+	 setInterval("changecolor()",500)//设置循环速度 
+	 </script>
 <link href="css/main.css" rel="stylesheet" type="text/css" />
-	<table border="0"> 
-<tbody> 
-<tr> 
-		<td><a href="index.html"><img src="image/FL@216.png" height="50" alt=""></a></td> 
-	<td><h1 style="font-family: '55';font-weight: 400;">日程表</h1></td> 
-</tr> 
-</tbody> 
-</table> 
-	<ul>
+<table border="0">
+  <tbody>
+    <tr>
+      <td><a href="index.html"><img src="image/FL@216.png" height="50" alt=""></a></td>
+      <td><h1 style="font-family: '55';font-weight: 400;">日程表</h1></td>
+    </tr>
+  </tbody>
+</table>
+<ul>
   <li><a class="active" href="index.html">主页</a></li>
   <li><a href="timetable.html">课程表</a></li>
   <li><a href="notifications.html">通知</a></li>
@@ -46,53 +80,51 @@ a:hover{text-decoration:none}
   <li><a href="downloads/demo.html">下载中心</a></li>
   <li><a href="ranking_list.html">排行榜</a></li>
 </ul>
-	 <title>日程表-恩社六班</title> 
-</head> 
 
-<body bgcolor="#ffffe0"> 
+<title>日程表-恩社六班</title>
+</head>
+<body bgcolor="#ffffe0">
 <div style="width: 1070px;" class="main">
-	<h1 align="center">班级日程表</h1> 
-      <hr class="hr1" />
-      <hr class="hr2" />
-	<h2>2020年</h2> 
-
-	<h3><font color="red">9月24～25日</font></h3> 
-
-	<h5><font color="red">广州市培正中学第55届校运会</font></h5> 
-	<h3><font color="red">9月27～30日</font></h3> 
-	<h5><font color="red">按学校新课表上课</font></h5> 
-	<h3 style="color:red;">10月1日～10月8日</h3>
-        <h5 style="color:red;">中秋、国庆假期</h5> 
-        <script> 
-function changecolor() { 
-	var b=document.getElementById("a").style.color; 
-	 if(b=="red"){document.getElementById("a").style.color="#FFFFE0";} 
-	 else {document.getElementById("a").style.color="red";} } 
-	 setInterval("changecolor()",500)//设置循环速度 
-	 </script>
-	<h3 style="color:red;">10月9日<br /><br /><font size="4">按周五课表上课</font></h3> 
-	<h3 style="color:red;">10月10日<br /><br /><font size="4">按周四课表上课</font></h3>
-	<h3 style="color:red;">10月16日<br /><br /><font size="4">音乐、美术区统考</font></h3> 
-	<h3 style="color:red;">11月2~3日<br /><br /><font size="4">期中考试</font></h3> 
-	<h3 style="color:red;">11月16日<br><br><font size="4">期中考家长会</font></h3>
-	<h3 style="color:red;" id="a">12月4～5日<br><br><font size="4">校庆系列活动</font></h3> 
-	<h3 style="color:#009200;">12月31日</h3> 
-	<h5 style="color:#009200;">新年音乐会</h5>
-        <hr class="hr0" />
-	<h2>2021年</h2> 
-	<h3 style="color:#009200;">1月1日</h3> 
-
-	<h5 style="color:#009200;">元旦放假1天</h5> 
-
-	<h3 style="color:#009200;">1月中旬</h3> 
-
-	<h5 style="color:#009200;">期末区统考</h5> 
-
-	<h3 style="color:#009200;">1月25日</h3> 
-
-	<h5 style="color:#009200;">散学典礼</h5> 
+  <h1 align="center">班级日程表</h1>
+        <hr class="hr0">
+<h2>2021年</h2>
+    <hr class="hr1">    <hr class="hr2">
+    <div id="a">
+        <h3>1月23日~2月21日</h3>
+        <h5>寒假</h5>
+    </div>
+    <div class="future">
+        <h3>2月21日</h3>
+        <h5>回校注册</h5>
+    </div>
+    <div class="future">
+        <h3>2月22日</h3>
+        <h5>开学典礼</h5>
+    </div>
+        <div class="future">
+        <h3>3月</h3>
+        <h5>中考报名、填报信息</h5>
+    </div>
+    <div class="future">
+        <h3>3月12日</h3>
+        <h5>百日誓师</h5>
+    </div>
+    <div class="future">
+        <h3>4月</h3>
+        <h5 class="low">体育中考；一模</h5>
+    </div>
+    <div class="future">
+        <h3>5月</h3>
+        <h5>家长会；口语考试</h5>
+    </div>
+    <div class="future">
+        <h3>6月</h3>
+        <h5>填报志愿；二模</h5>
+    </div>
+    <div class="future">
+        <h3>6月20日~6月22日</h3>
+        <h5>中考</h5>
+    </div>
 </div>
-</body> 
-
+</body>
 </html>
-
