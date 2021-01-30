@@ -42,3 +42,6 @@
 .br_5{
 display:inline; line-height:5px;
 }
+#pwd {
+    margin-left: 8px;
+}
