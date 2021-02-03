@@ -3,7 +3,6 @@
 <head>
 <meta name="baidu-site-verification" content="code-XPfMSbrOt9">
 <script language="javascript" src="js/F12.js"></script>
-    <script language="javascript" src="js/roll.js"></script>
 <link rel="shortcut icon" href="image/FL@216.png">
 <meta charset="utf-8">
 <title>首页-恩社六班</title>
@@ -34,9 +33,9 @@
 <tr><td id="butong_net_left1" valign="top" align="center">
 <table cellpadding="2" cellspacing="0" border="0">
 <tr align="center">
-<td><a href="https://mp.weixin.qq.com/s?__biz=MzI3NDI4NDIzOA==&mid=2247484303&idx=1&sn=aecf835d5bc93a09b873cb3d7e111792&chksm=eb17282edc60a138dd5b15717bc28a41f0f45ebb459ec25f00be567a58acc13a0f3979187b87&token=371849670&lang=zh_CN#rd"><img src="image/001.jpg" width="510"></a></td>
-<td><a href="https://mp.weixin.qq.com/s?__biz=MzI3NDI4NDIzOA==&mid=2247484303&idx=3&sn=aa80e68daf6a6c575820697cbfd2415a&chksm=eb17282edc60a138620ca87121cdcb7b2bc15abebc99ef79c2d8150862a0af4b1a081c6057b8&token=371849670&lang=zh_CN#rd"><img src="image/002.jpg" width="510"></a></td>
-<td><a href="https://mp.weixin.qq.com/s?__biz=MzI3NDI4NDIzOA==&mid=2247484303&idx=2&sn=67cc478822a34afd26fb0a50daf76fd0&chksm=eb17282edc60a1386d37c045e60cbff33c0c19626437158a07021b2184e79852b4b2118cc9c6&token=371849670&lang=zh_CN#rd"><img src="image/003.jpg" width="510"></a></td>
+<td><a href="https://mp.weixin.qq.com/s?__biz=MzI3NDI4NDIzOA==&mid=2247484303&idx=1&sn=aecf835d5bc93a09b873cb3d7e111792&chksm=eb17282edc60a138dd5b15717bc28a41f0f45ebb459ec25f00be567a58acc13a0f3979187b87&token=371849670&lang=zh_CN#rd"><img src="image/001.jpg" width="510" alt=""></a></td>
+<td><a href="https://mp.weixin.qq.com/s?__biz=MzI3NDI4NDIzOA==&mid=2247484303&idx=3&sn=aa80e68daf6a6c575820697cbfd2415a&chksm=eb17282edc60a138620ca87121cdcb7b2bc15abebc99ef79c2d8150862a0af4b1a081c6057b8&token=371849670&lang=zh_CN#rd"><img src="image/002.jpg" width="510" alt=""></a></td>
+<td><a href="https://mp.weixin.qq.com/s?__biz=MzI3NDI4NDIzOA==&mid=2247484303&idx=2&sn=67cc478822a34afd26fb0a50daf76fd0&chksm=eb17282edc60a1386d37c045e60cbff33c0c19626437158a07021b2184e79852b4b2118cc9c6&token=371849670&lang=zh_CN#rd"><img src="image/003.jpg" width="510" alt=""></a></td>
 </tr>
 </table>
 </td>
@@ -44,6 +43,20 @@
 </tr>
 </table>
 </div>
+<script>
+var speed=20//速度数值越大速度越慢
+butong_net_left2.innerHTML=butong_net_left1.innerHTML
+function Marquee3(){
+if(butong_net_left2.offsetWidth-butong_net_left.scrollLeft<=0)
+butong_net_left.scrollLeft-=butong_net_left1.offsetWidth
+else{
+butong_net_left.scrollLeft++
+}
+}
+var MyMar3=setInterval(Marquee3,speed)
+butong_net_left.onmouseover=function() {clearInterval(MyMar3)}
+butong_net_left.onmouseout=function() {MyMar3=setInterval(Marquee3,speed)}
+</script>
     <div class="box2">
       <table border="0" cellspacing="0" cellpadding="0" class="menu">
         <tbody>
