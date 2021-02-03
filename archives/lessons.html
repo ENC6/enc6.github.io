@@ -3,12 +3,6 @@
 <head>
 <meta charset="utf-8">
 <style type="text/css">
-a {
-    text-decoration: none
-}
-a:hover {
-    text-decoration: none
-}
     .tab1 {
         text-align: center;
         font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
@@ -17,19 +11,41 @@ a:hover {
     .zhushi{
         text-align: center;
         color: red;
+        background-color: white;
         background-color: aqua;
     }
+    .huifang>li{
+    float: left;
+    overflow: hidden;
+    width: 137px;
+    text-align: center;
+    background-color: chocolate;
+    margin: 5px;
+    border:0px solid;
+    border-radius:8px;
+    font-size: 20px;
+    font-family: "黑体", "仿宋", "Microsoft YaHei UI", Script;
+}
+.huifang>li a{
+    color: aliceblue;
+}
+.huifang>li a:hover{
+    color: gold;
+}
+.huifang>li a:after{
+    color: chartreuse;
+}
 </style>
-<link href="../css/main.css" rel="stylesheet" type="text/css" />
+<link href="../css/1.css" rel="stylesheet" type="text/css" />
 <table border="0">
   <tbody>
     <tr>
       <td><a href="index.html"><img src="../image/FL@216.png" height="50" alt=""></a></td>
-      <td><h1 style="font-family: '55';font-weight: 400;">日程表</h1></td>
+      <td><h1 style="font-family: '55';font-weight: 400;">入口</h1></td>
     </tr>
   </tbody>
 </table>
-<ul>
+<ul class="menu">
   <li><a class="active" href="../index.html">主页</a></li>
   <li><a href="../timetable.html">课程表</a></li>
   <li><a href="../notifications.html">通知</a></li>
@@ -72,6 +88,16 @@ a:hover {
   </tbody>
 </table>
 <h2 class="zhushi">注：点击对应科目可快速进入课堂！</h2>
+    <h1 align="center">课程回放</h1>
+    <ul class="huifang">
+        <li><a href="https://ke.qq.com/webcourse/3077574/103198348#taid=36590185&lite=1&vid=5285890813687009209">数学课程回放</a></li>
+        <li><a href="https://ke.qq.com/webcourse/1009707/101105542#taid=36593238&lite=1&vid=5285890813687379220">语文课程回放</a></li>
+        <li><a href="#" onClick="return confirm('暂时没有回放哟~');">政治课程回放</a></li>
+        <li><a href="#" onClick="return confirm('暂时没有回放哟~');">化学课程回放</a></li>
+        <li><a href="#" onClick="return confirm('暂时没有回放哟~');">历史课程回放</a></li>
+        <li><a href="#" onClick="return confirm('暂时没有回放哟~');">物理课程回放</a></li>
+        <li><a href="#" onClick="return confirm('暂时没有回放哟~');">英语课程回放</a></li>
+    </ul>
 </div>
 </body>
 </html>

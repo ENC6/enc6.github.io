@@ -1,0 +1,57 @@
+a{text-decoration:none} 
+a:hover{text-decoration:none}
+	@font-face
+{
+font-family: '55';
+src: url('../fonts/55.ttf');
+}
+		}
+	@font-face
+{
+font-family:'ff';
+src: url('../fonts/ff.ttf');
+}
+	@font-face
+{
+font-family:"58";
+src: url('../fonts/58.ttf');
+}
+	@font-face{
+	font-family:'led';
+	src: url('../fonts/led.ttf');
+}
+	.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FF6E71;
+    width: 1070px;
+    height: 40px;
+    border:0px solid;
+border-radius:8px;
+}
+
+	.menu>li {
+    float: left;
+    width: 176px;
+    text-shadow: 2px 2px 3px green;
+    font-weight: 900;
+    font-size: 18px;
+    margin-top: -8px;
+}
+
+	.menu>li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+	.menu>li a:hover {
+    background-color: #3131FF;
+}
+	body {
+		width: 1080px;
+	}
