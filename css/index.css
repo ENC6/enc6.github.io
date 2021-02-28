@@ -1,5 +1,8 @@
 a{text-decoration:none} 
 a:hover{text-decoration:none}
+#audio {
+    display: none;
+}
 	span { 
  
 display:block; 
