@@ -44,7 +44,7 @@
                 if (a == 0) {
                     a = 1;
                     //此处改成你要跳转的地址
-                    top.location.href = 'a.h'
+                    top.location.href = '#'
                 }
             }, 200)
         }
